@@ -153,8 +153,7 @@ char **rrstrgtoww2(char *, char);
 /* toem_realloc.c */
 char *_rrmemosets(char *, char, unsigned int);
 void rrffree(char **);
-void *_rrrealloc(void *, 
-unsigned int, unsigned int);
+void *_rrrealloc(void *, unsigned int, unsigned int);
 
 /* toem_memory.c */
 int rrbfree(void **);
